@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+
+    <style>
+        /* Seletor universal */
+        * {
+            margin: 0;
+
+        }
+
+        /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color:rgb(255, 255, 255);
+        }
+
+        /* Seletor de classe */
+        .paragrafo{
+            background-color:rgb(245, 18, 18);
+            font-size: xx-large;
+            /* margin: 10px; - Aplica em todas as margens*/
+            /* margin: 10px 40px; - Aplica nas margens 'Laterais' e 'Superior e Inferior' */
+            /* margin: 10px 20px 30px 40px; - aplica margem top, right, bottom, left*/
+            margin-left: 10px;
+            /* alinha elementos ao centro */
+            text-align: center;
+        }
+
+        .imagem{
+            width: 150px;
+            height: 100px;
+        }
+    </style>
+        
+</head>
+<!-- aplicando CSS inline cor de fundo -->
+<body style="background-color: rgb(236, 199, 131);">
+    Olá Mundo!
+    Bem-Vindo!
+    <!--Títrulos de nível 1 ao 6-->
+    <h1>Desenvolvimento de sistemas</h1>
+    <h1>Sesi senai</h1>
+    <h2>Cabeçalho de nível 2</h2>
+    <h3>Cabeçalho de nível 3</h3>
+    <h4>Cabeçalho de nível 4</h4>
+    <h5>Cabeçalho de nível 5</h5>
+    <h6>Cabeçalho de nível 6</h6>
+
+
+    <!-- Insere uma linha na horizontal -->
+    <hr>
+    <!-- A tag 'p' insere um novo parágrafo -->
+    <p>Este é um parágrafo</p>
+        <p>Outro parágrafo</p>
+    <hr>
+    <!-- A tag br quebra uma linha, ela é uma tag sem fechamento -->
+    <p>Este é um texto muito grande,<br> que eu desejo <br> quebrar a linha </p>
+
+
+    <!-- Inserindo um link para abrir uma página -->
+     <a href="https://www.sesisp.org.br">Pagina do Sesi</a>
+
+     <!-- Link com atributo _blank para abrir em outra janela -->
+     <a href="https://www.sp.senai.br/" target="_self">Senai</a>
+
+
+
+
+
+    <!-- tag img para adicionar uma imagem, 
+    o atributo src e preenchido com o caminho da imagem -->
+    <img src="https://ottvsimg.ottvs.com.br/ban/sup.042587/looke_1010_670.jpg">
+    <img src="./img/minion.gif">
+
+
+        <p>Paragrafo com caracter &lt;br&gt;</p>
+        <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr;</p>
+
+    <!-- Para inserir emoji use o hexadecimal do site emojipedia.org 
+     e o codigo vai depois do &#x -->
+
+     <p>Inserindo um emoji &#x1F60A &#x2764</p>
+
+    <!-- Tags para formatação e enfatização do texto -->
+     <b>Texto em negrito</b><br>
+     <strong>Texto importante</strong>
+     <br>
+     <i>italico</i>
+     <br>
+     <h1><i>H1 italico</i></h1>
+     <br>
+     <em>Texto enfatizado</em>
+     <br>
+     <mark>Texto marcado</mark>
+     <br>
+     <h3>Texto <small>Menor</small></h3>
+     <br>
+     <del>Texto excluído</del>
+     <br>
+     <ins>Texto inserido</ins>
+     <p>4<sub>2</sub></p>
+     <p>3<sub>3</sub></p>
+     <u>Texto sublinhado</u>
+<br>
+     
+<!-- Aplicando link em uma imagem -->
+    <a href="https://www.sesisp.org.br" target="_blank"><img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2nFmj3H0zSkzkjEJfOAQQ_yHEfJhyAnKpKQ&s" alt=""></a>
+    <p style="font-size: xx-large;">Videos do youtube</p>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/mGxHgTr3WRA" title="Meu Malvado Favorito 2- Minions Cantando Eu Juro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- Aplicando CSS interno -->
+    <p class="paragrafo">
+        Minions
+        <img class= "imagem" src="img/minion.gif" alt="">
+    </p>
+    <hr>
+
+
+    <!-- Listas -->
+
+    <!-- Listas Ordenadas -->
+     <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola no horário</li>
+     </ol>
+
+     <br>
+
+    <!-- Lista Ordenada com número romano minusculo -->
+    <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola no horário</li>
+     </ol>
+
+     <br>
+
+     <!-- Lista Ordenada com letra maiusculas -->
+     <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola no horário</li>
+     </ol>
+
+     <br>
+
+     <!-- Lista NÃO Ordenada -->
+      <ul>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+      </ul>
+
+      <br>
+
+    <!-- Lista dentro da lista  -->
+     <ul>
+        <li>Carne
+            <ul>
+                <li>Picanha</li>
+                <li>Cupim</li>
+                <li>Ponta de peito</li>
+            </ul>
+        <li>     
+    </ul>
+
+    <!-- Lista Predefinida -->
+     <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do Site</dd>
+        <dt>Javascript</dt>
+        <dd>Linguagem de programação</dd>
+     </dl>
+</body>
+</html>
