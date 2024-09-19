@@ -7,7 +7,7 @@
 
         /* Seletor de tipo, aplicando em uma tag */
         p{
-            color:rgb(255, 255, 255);
+            color:rgb(8, 69, 224);
         }
 
         /* Seletor de classe */
@@ -49,3 +49,43 @@
 .celula2 {
     background-color: rgb(208, 150, 204);
 }
+
+.formulario{
+    background-color: rgb(133, 250, 133);
+}
+
+.input-nome{
+    /* remove a borda do elemento */
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    /* define a opacidade do elemento */
+    opacity: 70%;
+}
+
+.botao{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    /* aplica sombra no texto posição x,y, blur e rgba que aplica com apacidade */
+    text-shadow: 5px 2xp 5px rgba rgb(67, 67, 255);
+   
+}
+
+.checar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* modifica o tipo do cursor */
+    cursor: pointer;
+    /* zerar as configurações de aparencia */
+    appearance: none;
+    background-color: #ffffff;
+    border: 2px solid #4b1aff;
+    border-radius: 5px;
+
+}
+
