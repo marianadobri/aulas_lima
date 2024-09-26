@@ -1,0 +1,111 @@
+.div1{
+    background-color: rgb(194, 146, 240);
+}
+.div2{
+    background-color: rgb(194, 146, 240);
+}
+.div3{
+    background-color: rgb(194, 146, 240);
+}
+.container{
+    border: 2px solid black;
+/* Limita o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item{
+    background-color: bisque;
+    margin: 5px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+}
+
+.flex{
+    display: flex;
+    /* Define a direção dos elementos */
+    flex-direction: column;
+}
+
+.flex > div > img {
+    height: 50px;
+    width: 50px;
+}
+
+.div-coluna {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(117, 249, 249);
+}
+
+.secao {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    background-color: rgb(154, 217, 218);
+    /* Coloca um espaço entre os elementos */
+    gap: 10px;
+}
+
+.secao-imagem {
+    width: 100px;
+    height: 100px;
+}
+
+.alinhar-esquerda {
+    display: flex;
+    flex-direction: row;
+     /*alinha os elementos a esquerda*/
+    justify-content: flex-start;
+}
+
+.alinhar-centro {
+    display: flex;
+    flex-direction: row;
+    /*alinha os elementos ao centro*/
+    justify-content: center;
+}
+
+.alinhar-direita {
+    display: flex;
+    flex-direction: row;
+    /*alinha os elementos a direita*/
+    justify-content: flex-end;
+}
+
+.alinhar-entre {
+    display: flex;
+    flex-direction: row;
+    /*aloca os elementos nas pontas e ajusta os elementos ao centro*/
+    justify-content: space-between;
+}
+
+.alinhar-redor {
+    display: flex;
+    flex-direction: row;
+    /*Distribui os itens com espaço ao redor deles*/
+    justify-content: space-around;
+}
+
+.alinhar-coluna {
+    display: flex;
+    flex-direction: column;
+    /*Distribui os itens com espaço ao redor deles*/
+    align-items: center;
+    width: 100%;
+    background-color: rgb(155, 155, 255);
+}
+
+.alinhar-itens-centro {
+    display: flex;
+    flex-direction: row;
+    /*Distribui os itens com espaço ao redor deles*/
+    height: 200px;
+    align-items: center;
+    background-color: rgb(101, 101, 255);
+    justify-content: space-between;
+}
+
+
+
