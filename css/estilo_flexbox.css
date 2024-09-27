@@ -107,5 +107,91 @@
     justify-content: space-between;
 }
 
+.container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0.4rem;
+}
 
+.card {
+    width: 300px;
+    height: 250px;
+    flex: 0 0 auto; /* evita que os cards encolham ou se ajustem automaticamente*/
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(0,0,0,0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3 ease, box-shadow 0.3 ease;
+}
+
+.card:hover {
+    /*serve para criar um efeito hover, mudando a posição do card*/
+    transform:scale(1.1); 
+    box-shadow: 0 8px 12px rgba(0,0,0,0.6)
+}
+
+.cabecalho-card {
+    padding: 10px;
+}
+
+.titulo-card {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subtitulo-card {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+.imagem-card {
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-card > img {
+    max-width: 100%; /*Mantem o limite maximo do tamnho do cantainer*/
+    height: 150px; /*mantem a proporção da imagem*/
+}
+
+.imagem-card > figcaption {
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555;
+}
+
+.conteudo-card {
+    padding: 10px;
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 70px;
+}
+
+.rodape-card {
+    background-color: #3333335e;
+    text-align: center;
+    padding: 6px;
+
+}
+
+.botao-card {
+    text-decoration: none; /*Remove a decoração de linha*/
+    color: white;
+    background-color: rgb(255, 0, 51);
+    border-radius: 4px;
+    padding: 5px 6px;
+    /*Permite definir largura e altura, alinha elementos na mesma linha*/
+    display: inline-block;
+}
+
+.botao-card:hover {
+    background-color: rgb(0, 255, 42);
+}
 
