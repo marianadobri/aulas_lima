@@ -8,7 +8,97 @@
     box-sizing: border-box;
 }
 
+body{
+    color: #ffffff;
+    background-color: #000000;
+}
+
 .logo {
     font-family: Teko;
     font-size: 2rem;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    align-items:center; 
+    justify-content: space-between;
+}
+
+.conteudo_home {
+    padding: 10px;
+
+}
+
+.conteudo_receitas {
+    padding: 10px;
+
+}
+
+.conteudo_novidades {
+    padding: 10px;
+
+}
+
+.conteudo_melhor_avaliados {
+    padding: 10px;
+
+}
+
+.conteudo_acessar {
+    padding: 10px;
+    color: #ffb10a;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.fundo_cabecalho {
+    background-color: #000000;
+    display: flex;
+    align-items:center; 
+    font-size: 12px;
+    margin: auto;
+    
+}
+
+.banner-cafe {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.banner-cafe > img {
+    width: 100%;
+    box-shadow: 10px 0px 20px rgba(0,0,0, 0.5);
+    border-radius: 2px;
+    opacity: 0.7;
+}
+
+.banner-novidades{
+    max-width: 1120px;
+    height: 60vh;
+    margin: auto;
+    padding: 0rem 2rem;
+    gap: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-conteudo {
+    /*Organizamos o conteúdo em coluna*/
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.banner-imagens {
+    /*Definir largura máxima*/
+    max-width: 45%;
+    /*Exibir as imagens em 4 colunas*/
+    column-count: 4;
+}
+
+.banner-imagens > figure > img{
+    width: 100%;
+    border-radius: 5px;
 }
