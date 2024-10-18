@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /*Assegura que padding e margin sejam 
+    incluidos nas dimensoes totais do elemento*/
+    box-sizing: border-box;
+}
+
+body{
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-family: Teko;
+    font-size: 2rem;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    align-items: center; 
+    justify-content: space-between;
+    text-align: center;
+}
+ .logo_andra {
+ width: 150px;
+ }
+
+ .turismo {
+    text-align: center;
+ }
+
+.conteudo_home {
+    padding: 10px;
+
+}
+
+.conteudo_receitas {
+    padding: 10px;
+
+}
+
+.conteudo_novidades {
+    padding: 10px;
+
+}
+
+.conteudo_melhor_avaliados {
+    padding: 10px;
+
+}
+
+.conteudo_acessar {
+    padding: 10px;
+    color: #ffb10a;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.fundo_cabecalho {
+    background-color: #275b9e;
+    display: flex;
+    align-items:center; 
+    font-size: 12px;
+    margin: auto;
+    
+}
+
+.card-novo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    max-width: 1120px;
+    gap: 2rem;
+}
+.card-novo::-webkit-scrollbar{
+    display: none;
+}
+
+.div-card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 3rem;
+    background-color: #bedaff;
+    height: 400px;
+}
+
+.margem {
+    margin: 20px;
+}
+
+.receitas {
+    margin: 20px;
+}
