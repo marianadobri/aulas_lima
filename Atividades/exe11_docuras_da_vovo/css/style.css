@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+.logo {
+    width: 70px;
+    object-fit: cover;
+}
+
+.amarelo {
+    color: rgb(255, 217, 0);
+}
+
+.verde {
+    color: rgb(61, 122, 0);
+}
